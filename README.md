@@ -12,10 +12,10 @@ Users upload their resumes in PDF format, and the system automatically extracts 
 ## 2. Job Description Input-
 
 The user provides the job description for the position they are targeting. This sets the criteria against which the resume will be evaluated.
-## ATS Similarity Input-
+## 3.ATS Similarity Input-
 
 Using Sentence Transformers (BERT-based model), the tool calculates a similarity score between the resume and the job description. This score reflects how well the resume matches keywords, context, and requirements typically scanned by ATS software.
-## AI-Powered Resume Evaluation-
+##4. AI-Powered Resume Evaluation-
 
 With the help of Groq's Llama-based LLM, the tool generates a detailed, human-readable evaluation report. The AI analyzes various factors such as skills, experience, and qualifications, assigning a score (out of 5) for each aspect and using emojis (✅, ❌, ⚠️) to quickly highlight strengths and gaps.
 ## 5.Actionable Feedback-
