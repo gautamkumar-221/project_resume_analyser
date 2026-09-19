@@ -85,7 +85,7 @@ def get_report(resume,job_desc):
 
     chat_completion = client.chat.completions.create(
         messages=[{"role": "user", "content": prompt}],
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
     )
     return chat_completion.choices[0].message.content
 
